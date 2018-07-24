@@ -26,7 +26,7 @@ if LastKey = $08 then
     Exit;
   end;
 if Length(Srch)<=0 then exit;
-I:=edit.Index.Size-1;
+I:=edit.items.Count;
 for ix := 0 to I do
   begin
   edit.ItemIndex := ix;
